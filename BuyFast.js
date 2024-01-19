@@ -1,10 +1,8 @@
 const Web3 = require('web3');
 
-// Replace with your Ethereum node provider URL
 const providerUrl = 'https://mainnet.infura.io/v3/YOUR_INFURA_API_KEY';
 const web3 = new Web3(providerUrl);
 
-// Replace with your contract address and ABI
 const contractAddress = '0xYourContractAddress';
 const contractAbi = [
   // Include your contract ABI here
