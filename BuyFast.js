@@ -5,8 +5,6 @@ const web3 = new Web3(providerUrl);
 
 const contractAddress = '0xYourContractAddress';
 const contractAbi = [
-  // Include your contract ABI here
-  // Example:
   // { "constant": false, "inputs": [{"name": "value","type": "uint256"}], "name": "buyTokens", "outputs": [], "payable": true, "stateMutability": "payable", "type": "function" }
 ];
 
